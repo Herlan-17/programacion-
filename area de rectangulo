@@ -1,0 +1,28 @@
+// AREA DE UN RECTANGULO D.cpp : Defines the entry point for the console application.
+//AUTOR: HERLAN CATALA
+//FECHA: 27/08/2015
+
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+
+using namespace std;
+int main()
+
+{ float A,B,H;
+  cout<< "Calcula el area de un rectanglo";
+  cout<< "ingresa la base";
+  cin>> B;
+  cout<<"ingrese la altura";
+  cin>> H;
+  A=(B*H);
+  cout<< "el area de su rectangulo es:"<<A;
+ 
+  getch();
+  return 0;
+}
+
+
+
