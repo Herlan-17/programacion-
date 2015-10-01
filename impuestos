@@ -1,0 +1,32 @@
+// impuesto.cpp : Defines the entry point for the console application.
+//autor: herlan catala
+//fecha:01/10/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+ using namespace std;
+
+ void main()
+ {
+   int n,i;
+   float iva,sueldo,suma=0,sueldomin;
+   cout <<"ingrese el numero de personas que desea calcular el impuesto";
+   cin  >>n;
+   sueldomin=(2*1656);
+   for (i=1;i<=n;i++)
+   {
+	   cout <<"ingrese el sueldo del empleado"<<i<<":";
+       cin  >>sueldo;
+	   iva=0
+	   if (sueldo>sueldomin)
+	   iva=sueldo*0.13;
+	   cout <<"el impuesto es"<<i<<": "<<iva<<end;
+	   suma=suma+iva;
+   }
+	   
+   cout<<"el impuesto a pagar es:" <<suma<<end;
+	getch();
+}
